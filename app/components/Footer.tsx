@@ -30,7 +30,8 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <p className="text-neutral-400 text-center font-bold">&copy; {year} Optimal Treningssenter. Alle rettigheter reservert.</p>
+            <p className="text-neutral-400 text-center font-bold">&copy; {year} EkebergDevelopment. Alle rettigheter reservert.</p>
         </div>
     )
+
 }
