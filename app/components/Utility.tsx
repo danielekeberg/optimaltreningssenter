@@ -1,7 +1,7 @@
 export default function Utility() {
     return(
         <div className="py-20 px-[15%] bg-[#262626]">
-            <h1 className="text-red-500 text-center text-6xl font-extrabold">UTSTYR & FASILITETER</h1>
+            <h1 className="text-red-500 text-center text-3xl md:text-6xl font-extrabold">UTSTYR & FASILITETER</h1>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5 text-center mt-20">
                 <div className="bg-[#141414] border border-neutral-100/15 p-8 rounded-md">
                     <div className="flex flex-col gap-5">

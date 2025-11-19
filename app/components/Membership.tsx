@@ -1,8 +1,8 @@
 export default function Membership() {
     return(
         <div className="py-20 px-[15%]" id="medlem">
-            <h1 className="text-red-500 text-center text-6xl font-extrabold">MEDLEMSKAP & PRISER</h1>
-            <div className="grid grid-cols-1 md:grid-cols-3 mt-20 gap-5">
+            <h1 className="text-red-500 text-center text-3xl md:text-6xl font-extrabold">MEDLEMSKAP & PRISER</h1>
+            <div className="grid grid-cols-1 md:grid-cols-3 mt-20 gap-10 md:gap-5">
                 <div className="bg-[#262626] border border-neutral-100/15 hover:border-red-500 p-10 rounded-md">
                     <div className="text-center">
                         <h2 className="font-bold text-3xl mb-2">BASIC</h2>
@@ -21,8 +21,8 @@ export default function Membership() {
                     </div>
                 </div>
                 <div className="bg-[#262626] border-2 relative border-red-500 p-10 rounded-md">
-                    <div className="absolute z-99 -top-10 rounded-[2] bg-red-500 py-2 px-5 translate-[50%] right-[50%]">
-                        <p className="font-bold">MEST POPULÆR</p>
+                    <div className="absolute z-99 -top-15 md:-top-10 rounded-[2] bg-red-500 py-2 px-5 translate-[50%] right-[50%]">
+                        <p className="font-bold text-center">MEST POPULÆR</p>
                     </div>
                     <div className="text-center">
                         <h2 className="font-bold text-3xl mb-2">PRO</h2>

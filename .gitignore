@@ -1,0 +1,37 @@
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+
+# --- Next.js build output ---
+.next/
+out/
+build/
+
+# --- Env files (ALDRI push disse) ---
+.env
+.env*.local
+
+# --- OS-specific files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+logs
+*.log
+*.log.*
+
+# --- Editor folders/files ---
+.vscode/
+.idea/
+*.swp
+
+# --- TypeScript ---
+*.tsbuildinfo
+
+# --- Misc ---
+*.local
+next-env.d.ts
